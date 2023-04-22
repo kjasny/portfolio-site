@@ -50,6 +50,7 @@ body {
     grid-column: span 2;
     text-align: center;
     font-size: 30px;
+    margin-top: 50px;
 }
 .contact-header {
     margin: 20px;
@@ -78,6 +79,28 @@ body {
 .contact a {
     color: rgba(255, 0, 0, 0.482);
 }
+
+.projectsHeader {
+    color: rgba(255, 0, 0, 0.482);
+    grid-column: span 2;
+    text-align: center;
+}
+
+.projects1 {
+    grid-column: span 1;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: center;
+    max-width: 450px;
+    margin-left: 425px;
+    padding: 5px;
+
+}
+
+.projectButton {
+    grid-column: span 2;
+    text-align: center;
+}
 @media(max-width: 700px) {
     .grid-container {
         grid-template-columns: repeat(1fr);
@@ -85,5 +108,8 @@ body {
     }
     .grid-item {
         grid-column: span 1;
+    }
+    .projects1 {
+        margin-left: 20px;
     }
 }
